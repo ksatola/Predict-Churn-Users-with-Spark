@@ -2,6 +2,7 @@
 
 https://www.viget.com/articles/set-up-aws-cli-and-download-your-s3-files-from-the-command-line/
 
+How to get data
 Install AWS CLI
 $ brew install awscli
 
@@ -22,3 +23,7 @@ Default region name [None]: <enter region - valid options are listed below >
 Default output format [None]: <format - valid options are listed below >
   
 $ aws s3 sync s3://<bucket>/<path> </local/path>
+123MB
+$ aws s3 cp s3://udacity-dsnd/sparkify/mini_sparkify_event_data.json ~/aws
+12GB
+$ aws s3 cp s3://udacity-dsnd/sparkify/sparkify_event_data.json ~/aws

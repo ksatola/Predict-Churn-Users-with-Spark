@@ -1,4 +1,6 @@
-# Predict-Churn-Users-with-Spark
+# Predict-Churn-Users-with-Spark (early draft)
+
+Using Spark to Predict Churn with Insight Data Science 
 
 https://www.viget.com/articles/set-up-aws-cli-and-download-your-s3-files-from-the-command-line/
 
